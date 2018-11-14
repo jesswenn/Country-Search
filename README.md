@@ -1,6 +1,6 @@
 # Country-Europe-Search
 
-Description:
+* Description:*
 Creating a search function with fetch:
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
