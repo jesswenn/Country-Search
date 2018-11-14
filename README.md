@@ -8,6 +8,6 @@ Fetch data from rest country API:
 * https://restcountries.eu/
 
 ## Dependencies
-* JAvaScript
+* JavaScript
 * HTML
 * CSS
