@@ -1,0 +1,121 @@
+/* ------------- Google Fonts ------------- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/* ------------- CSS Variables ------------- */
+ :root {
+     --primary-color: #64d86b;
+     --secondary-color: #5ec986;
+     --dark-color: #448512;
+     --light-color: #6e7598;
+     --bg-color: #a4f644;
+     --shadow: 0 1px 5px rgba(104, 104, 104, 08);
+}
+
+/* ------------- CSS Resets ------------- */
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+/* ------------- MAin Style ------------- */
+ body {
+     color: var(--dark-color);
+     font-family: 'Montserrat', sans-serif;
+     padding-top: 40px;
+     background: #a8ff78;
+     overflow:hidden;
+    /* fallback for old browsers */
+     background: -webkit-linear-gradient(to bottom, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to bottom, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* color: salmon; */
+}
+
+ h1{
+   text-align: center;
+}
+
+/* ------------- Info Box Section ------------- */
+p{
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 1.7em;
+}
+
+/* ------------- Main Section------------- */
+#main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px auto;
+    padding: 0;
+    width: 80%;
+}
+
+/* ------------- Flag Section ------------- */
+ #flag-container{
+     height: 50vh;
+     background-color: #fff;
+}
+
+/* ------------- Images Section ------------- */
+ #flag-container img{
+     min-width: 100%;
+     height: 100%;
+     background: var(--shadow);
+     /* border-radius: 50%; */
+}
+
+/* ------------- Drop Down Select Info Section ------------- */
+ #info-container select {
+     color: var(--dark-color);
+     text-transform: uppercase;
+     font-size: 1em;
+     font-weight: 400;
+     text-align-last: center;
+     outline: none;
+     border: none;
+     height: 40px;
+     margin-left: 20px;
+     max-width: 80%;
+}
+
+ #info-container p span {
+     font-weight: normal;
+     text-decoration: underline;
+}
+ 
+#info-container p {
+     font-weight: 700;
+     text-decoration: underline;
+}
+
+
+/* --------- Media Queries To Small Devices ---------- */
+ @media (max-width: 768px) {
+    body{
+        height: 100%;
+        overflow-y: scroll;
+    }
+    #main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 30px auto;
+        padding: 0;
+        width: 80%;
+    }
+    #info-container select {
+        margin-top: 20px;
+        max-width: 80%;
+   }
+}

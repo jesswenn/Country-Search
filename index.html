@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Search Countries</title>
+
+      <link rel="icon" type="image/png" href="./img/favicon-angellist.ico" />
+
+      <!---------- CDN FONTAWESOME ---------->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+         crossorigin="anonymous">
+
+      <!--------- CSS ---------->
+      <link rel="stylesheet" href="css/main.css">
+
+   </head>
+   <body>
+      
+      <div id="header-container">
+          <h1>Welcome to Europe Country Search!
+              <i class="fab fa-angellist" style="font-size:35px; font-weight: 100; color:#5ec986; "></i>
+          </h1>
+          <p class="header-text"> Welcome to our new API Search Engine. Here you can search for data and information <br>about your favorite country. Search with joy.</p>
+        </div>
+        <!-- END .header-container -->
+      <div id="main-container">
+         <div id="flag-container">
+            <img src="" alt="">
+         </div>
+         <!-- END .flag-container -->
+         <div id="info-container" >
+            <select id="countries">
+               <!-- <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option> -->
+            </select>
+            <p>Capital: <span id="capital"></span></p>
+            <p>Currancies: <span id="currencies"></span></p>
+            <p>Dialing Code: <span id="dialing-code"></span></p>
+            <p>Languages: <span id="languages"></span></p>
+            <p>Population: <span id="population"></span></p>
+            <p>Region: <span id="region"></span></p>
+            <p>Subregion: <span id="sub-region"></span></p>
+         </div>
+         <!-- END .info-container -->
+      </div>
+      <!-- END .main-container -->
+
+<!-------------- SCRIPTS ----------------- -->
+        <script src="js/script.js"></script>
+        
+   </body>
+</html>
