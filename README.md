@@ -1,10 +1,12 @@
 # Country-Europe-Search
 
 ## Description:
-Creating a search function with fetch:
+Creating and playing around building a simple and basic application 
+with fetch method, using, Html, css, and javascript:
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
-Fetch data from rest country API:
+Implement and fetching data from countries Restful API, 
+using the Fetch Method: 
 * https://restcountries.eu/
 
 ## Dependencies
