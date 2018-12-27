@@ -12,3 +12,11 @@ Fetch data from rest country API:
 * HTML
 * CSS
 
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
