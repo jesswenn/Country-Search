@@ -18,7 +18,7 @@ git status
 git add
 git commit
 ```
-:+1: This README looks great - it's ready to merge! :collision:
-:
+:v: This looks great - it's ready to merge! :collision
+
 
 
