@@ -18,5 +18,7 @@ git status
 git add
 git commit
 ```
-:+1: This PR looks great - it's ready to merge! :shipit:
+:+1: This README looks great - it's ready to merge! :collision:
+:
+
 
