@@ -1,6 +1,6 @@
 # Country-Europe-Search
 
-![Algorithm schema](./header.png)
+![Image Screenshot](./header.png)
 
 ## Description:
 Creating and playing around building a simple and basic application 
