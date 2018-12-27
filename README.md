@@ -12,9 +12,3 @@ Fetch data from rest country API:
 * HTML
 * CSS
 
-Git commands:
-```
-git status
-git add
-git commit
-```
