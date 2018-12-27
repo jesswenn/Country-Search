@@ -12,13 +12,8 @@ Fetch data from rest country API:
 * HTML
 * CSS
 
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-:v: This looks great - it's ready to merge! :collision:
+
+:v: This looks great - it's ready to merge! :eyes:
 
 
 
