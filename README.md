@@ -1,5 +1,7 @@
 # Country-Europe-Search
 
+![](header.png)
+
 ## Description:
 Creating and playing around building a simple and basic application 
 with fetch method, using, Html, css, and javascript:
