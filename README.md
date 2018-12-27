@@ -11,3 +11,10 @@ Fetch data from rest country API:
 * JavaScript
 * HTML
 * CSS
+
+Git commands:
+```
+git status
+git add
+git commit
+```
